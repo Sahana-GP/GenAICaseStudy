@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.code-input {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.test-case-display {
+  margin-top: 20px;
+  width: 80%;
+  font-size: 16px;
+}
+
+.test-case-display h2 {
+  margin-bottom: 10px;
+}
+
+.test-case-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
